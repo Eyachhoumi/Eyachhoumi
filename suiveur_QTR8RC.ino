@@ -69,7 +69,6 @@ if ((!digitalRead(tcrd)) && (digitalRead(tcrg))){
  move(1, ( constrain (Speed - adjustment ,0 , Speed )) , 1);
   }
   
-  
 }
 
 
@@ -82,12 +81,6 @@ if ((!digitalRead(tcrd)) && (digitalRead(tcrg))){
 
   }
   }
-
-
-  /* Motor = 0 : left motor 
-     Motor = 1 : right motor 
-     direction = 0 backward
-     direction = 1 forward*/
   void move(int motor, int speed, int direction)
   {
     

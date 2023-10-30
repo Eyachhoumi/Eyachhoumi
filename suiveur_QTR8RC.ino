@@ -16,7 +16,7 @@
 
  QTRSensors qtr;
   
- const uint8_t SensorCount = 7;
+ const uint8_t SensorCount = 8;
  uint16_t sensorValues[SensorCount];
  const double kp = 0.4;    //--- LAST 0.8
  const double kd = 2; //0.5    // last 0.5
